@@ -5,7 +5,7 @@ A simple web application to save your daily tasks so you don’t miss anything.
 ## Preview
 
 ### Landing Page  
-![Landing Page](src/assets/GIFs/Landingpage.gif)
+![Landing Page](src/assets/GIFs/LandingPage.gif)
 
 ### Login  
 ![Login](src/assets/GIFs/logIn.gif)
