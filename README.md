@@ -1,12 +1,50 @@
-# React + Vite
+# To Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application to save your daily tasks so you don’t miss anything.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Landing Page  
+![Landing Page](src/assets/GIFs/Landingpage.gif)
 
-## Expanding the ESLint configuration
+### Login  
+![Login](src/assets/GIFs/logIn.gif)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Sign In  
+![Sign In](src/assets/GIFs/signIn.jpg)
+
+### Create a Task  
+![Create Task](src/assets/GIFs/Tasks.gif)
+
+### Dark Mode  
+![Dark Mode](src/assets/GIFs/DarkMode.gif)
+
+### Change the Language to Arabic  
+![Change Language](src/assets/GIFs/Lang.gif)
+
+### Settings  
+![Settings](src/assets/GIFs/Profile.gif)
+
+### Edit and Update a Status  
+![Edit Status](src/assets/GIFs/Status.gif)
+
+### Hunt the Ghost Game  
+![Hunt Ghost](src/assets/GIFs/HuntingTheGhost.mp4)
+
+## Features
+
+- login and signup  
+- add a task  
+- edit a task  
+- remove a task  
+- display the tasks in a table  
+- display a task in a grid  
+- hunt the ghost game  
+- update your name and password  
+- add, edit, and remove any status  
+
+## Technologies Used
+
+- React.js  
+- CSS  
+- Axios  
