@@ -1,0 +1,146 @@
+.login-container {
+  display: flex;
+  gap: 0px;
+}
+
+.left {
+  background-color: #d4002a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.left img {
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+.right {
+  align-items: center;
+  flex: 1;
+  background-color: #1a0000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.right input {
+  color : white;
+}
+
+.content {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.right h4 {
+  width: 360px;
+  text-align: center;
+}
+
+.right h4 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  width: 360px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+input:hover {
+  box-shadow: #ff2954;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff2954;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+button {
+  padding: 12px;
+  background-color: #a1001a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c7002f;
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    display: none;
+  }
+
+  .login-container {
+    height: 830px;
+    background-color: white;
+  }
+
+  .right {
+    padding-top: 200px;
+    background-color: white;
+    color: black;
+  }
+
+  .right h4 {
+    color: grey;
+  }
+
+  button,
+  input {
+    width: 512px;
+    height: 36px;
+  }
+
+  .right button {
+    width: 622px;
+    height: 36px;
+    margin-top: 20px;
+  }
+
+  input {
+    padding: 0px;
+  }
+
+  .signup-header img {
+    display: none;
+  }
+
+  .signup-header {
+    content: url("../../../assets/Logo.svg");
+    justify-items: center;
+    position: relative;
+    left: 270px;
+    transform: scale(0.5);
+  }
+}

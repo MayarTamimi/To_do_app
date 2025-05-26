@@ -1,0 +1,155 @@
+.signup-container {
+  display: flex;
+  gap: 10rem;
+}
+
+.signup-right {
+  justify-items: center;
+  margin-top: 150px;
+}
+
+.signup-right h4 {
+  color: rgb(75, 71, 71);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-header {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer-logo {
+  position: absolute;
+  background-color: transparent;
+  right: 20px;
+  bottom: -310px;
+}
+
+form p {
+  color: #ccc;
+}
+
+.upload-btn {
+  width: 104px;
+  height: 36px;
+  cursor: pointer;
+}
+.upload-label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.upload-label input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+[dir="rtl"] .login-container {
+  flex-direction: row-reverse;
+}
+
+.footer img {
+  position: relative;
+  top: 10px;
+  right: -276px;
+  padding: 20px;
+}
+
+.upload-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.avatar-preview {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.remove-avatar-btn {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 10px;
+  color: black;
+}
+
+.remove-avatar-btn:hover {
+  background: #f0f0f0;
+}
+
+input {
+    color : black;
+}
+
+.signup-left {
+  background-color: #d4002a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 420px;
+}
+
+.signup-left img {
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-container {
+    justify-content: center;
+  }
+
+  .signup-left {
+    display: none;
+  }
+
+  form {
+    width: 640px;
+    height: 582px;
+    padding: 20px;
+  }
+
+  input,
+  button {
+    width: 620px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    content: url("../../../assets/footer-logo.svg");
+    transform: scale(0.5);
+  }
+
+  .footer img {
+    display: none;
+  }
+
+  .link {
+    position: relative;
+    top: -140px;
+  }
+
+  .signup-right button {
+    width: 620px;
+  }
+}
