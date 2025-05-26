@@ -47,4 +47,9 @@ A simple web application to save your daily tasks so you don’t miss anything.
 
 - React.js  
 - CSS  
-- Axios  
+- Axios
+
+## setup instructions
+>> cd Todo
+>> npm install
+>> npm run dev
