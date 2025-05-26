@@ -50,6 +50,6 @@ A simple web application to save your daily tasks so you don’t miss anything.
 - Axios
 
 ## setup instructions
->> cd Todo
->> npm install
->> npm run dev
+- cd Todo
+- npm install
+- npm run dev
