@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import star from "../../../../assets/star.svg";
 import fullStar from "../../../../assets/fillStar.svg";
 import dots from "../../../../assets/dots.svg";
-import EmptyTasks from "../EmptyTasks/EmptyTasks";
+import EmptyTasks from "../../EmptyTasks/EmptyTasks";
 import TaskSettingsMenu from "../TaskSettings/TaskSettingsMenu";
 import DeleteStatus from "../../TasksActions/DeleteStatus/DeleteStatus";
 import "./TasksTable.css";

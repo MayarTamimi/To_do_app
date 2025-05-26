@@ -1,5 +1,5 @@
 import React from "react";
-import empty from "../../../../assets/Group.svg";
+import empty from "../../../assets/Group.svg";
 import { useTranslation } from "react-i18next";
 import "./EmptyTask.css";
 const EmptyTasks = ({ openModal}) => {

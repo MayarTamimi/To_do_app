@@ -1,19 +1,19 @@
 import React, { useState, useEffect, useRef } from "react";
-import Header from "../../../../UI/Header/Header";
-import grid from "../../../../assets/grid.svg";
-import table from "../../../../assets/table.svg";
-import search from "../../../../assets/search.svg";
-import TasksTable from "../TasksTable/TasksTable";
+import Header from "../../../UI/Header/Header";
+import grid from "../../../assets/grid.svg";
+import table from "../../../assets/table.svg";
+import search from "../../../assets/search.svg";
+import TasksTable from "../Table/TasksTable/TasksTable";
 import { useTranslation } from "react-i18next";
-import CreateTaskModel from "../../TasksActions/CreateTask/CreateTaskModel";
+import CreateTaskModel from "../TasksActions/CreateTask/CreateTaskModel";
 import { Link } from "react-router-dom";
-import StatusModal from "../../../../UI/StatusModal/StatusModel";
-import StatusSelect from "../../TasksActions/StatusSelect/StatusSelect";
+import StatusModal from "../../../UI/StatusModal/StatusModel";
+import StatusSelect from "../TasksActions/StatusSelect/StatusSelect";
 import {
   openDB,
   addTaskToIndexedDB as saveTasks,
   getAllTasks,
-} from "../../../../Utils/indexedDB";
+} from "../../../Utils/indexedDB";
 import axios from "axios";
 import "./TaskListPage.css";
 
@@ -197,7 +197,7 @@ const TaskListPage = () => {
           <StatusSelect
             statuses={statuses}
             value={selectedStatus}
-            tasks = {tasks}
+            tasks={tasks}
             onChange={(v) => setSelectedStatus(v)}
             placeholder={t("tasksActions.status")}
           />
