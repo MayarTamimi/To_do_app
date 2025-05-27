@@ -7,9 +7,6 @@ A simple web application to save your daily tasks so you don’t miss anything.
 ### Landing Page  
 ![Landing Page](src/assets/GIFs/LandingPage.gif)
 
-### Login  
-![Login](src/assets/GIFs/logIn.jpg)
-
 ### Sign In  
 ![Sign In](src/assets/GIFs/signIn.jpg)
 
