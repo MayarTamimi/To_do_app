@@ -25,9 +25,6 @@ A simple web application to save your daily tasks so you don’t miss anything.
 ### Edit and Update a Status  
 ![Edit Status](src/assets/GIFs/Status.gif)
 
-### Hunt the Ghost Game  
-![Hunt Ghost](src/assets/GIFs/HuntingTheGhost.mp4)
-
 ## Features
 
 - login and signup  
