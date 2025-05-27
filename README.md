@@ -11,7 +11,7 @@ A simple web application to save your daily tasks so you don’t miss anything.
 ![Sign In](src/assets/GIFs/signIn.jpg)
 
 ### Create a Task  
-![Create Task](src/assets/GIFs/Tasks.gif)
+![Create Task](src/assets/GIFs/tasks.gif)
 
 ### Dark Mode  
 ![Dark Mode](src/assets/GIFs/DarkMode.gif)
