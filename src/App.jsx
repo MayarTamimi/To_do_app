@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./component/HomePage/Home.jsx";
 import Login from "./component/Auth/LogIn/LogIn.jsx";
 import Signup from "./component/Auth/SignUp/SignUp.jsx";
-import TaskList from "./component/TaskList/Table/TaskListPage/TaskListPage.jsx";
+import TaskList from "./component/TaskList/TaskListPage/TaskListPage.jsx";
 import TaskGridPage from "./component/TaskList/Grid/TaskGridPage.jsx";
 import SettingsPage from "./component/Settings/SettingsPage/SettingsPage.jsx";
 import Hunting from "./component/HuntGhostRoom/Hunting.jsx";
