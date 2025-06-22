@@ -1,0 +1,114 @@
+.escape-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  gap: 24px;
+}
+
+.escape-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.red-title {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.left-text {
+  font-size: 36px;
+  margin: 10px 0;
+  font-weight: bold;
+  width: 438px;
+  height: 86px;
+}
+
+.left-text p {
+  font-family: "Janna LT";
+  width: 585px;
+  height: 144px;
+}
+
+.escape-left p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.escape-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.escape-right img {
+  height: auto;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .escape-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .escape-left {
+    text-align: center;
+    width: 704px;
+    height: 195px;
+    gap: 0px;
+  }
+
+  .left-text {
+    width: 704px;
+    font-size: 27px;
+  }
+
+  .escape-right {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .overlay {
+    display: none;
+  }
+}
+
+@media screen  and (max-width : 400px) {
+    .escape-container {
+        width : 407px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .escape-left {
+        width : 583px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .escape-left p {
+        width : 583px;
+        text-align: center;
+    }
+    
+    .escape-right {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 358px;
+        height : 662px;
+        align-items: center;
+        gap : 10px;
+    }
+
+    .escape-right img {
+        width : 358px;
+        height : 662px;
+    }
+}

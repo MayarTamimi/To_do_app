@@ -1,0 +1,16 @@
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name input {
+  border-radius: 8px;
+  width: 450px;
+}
+
+.name .message {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: red;
+}

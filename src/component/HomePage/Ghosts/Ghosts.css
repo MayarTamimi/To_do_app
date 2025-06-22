@@ -1,0 +1,165 @@
+.container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.bg {
+  width: 1088px;
+  height: 644px;
+  display: block;
+  border-radius: 15px;
+}
+
+.ghosts {
+  position: relative;
+  top: 0;
+  bottom: -100;
+  left: 0;
+  width: 998px;
+  height: 393px;
+}
+
+.img-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  gap: 20px;
+}
+
+.img-content p {
+  width: 500px;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+.arrow-text {
+  rotate: -10deg;
+  font-size: 1.4rem;
+  color: rgb(63, 61, 61);
+  width: 200px;
+  position: absolute;
+  top: -45px;
+  left: 250px;
+}
+
+.arrow {
+  position: absolute;
+  left: 390px;
+  top: -45px;
+  width: 143px;
+  height: 125px;
+}
+
+.overlay {
+  width: 100%;
+  height: 358px;
+  display: block;
+  object-fit: cover;
+}
+
+.hunt {
+  background-color: #d90429;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-size: 1.2em;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 1rem;
+  }
+
+  .bg {
+    width: 100%;
+    height: 500px;
+  }
+
+  .img-content p {
+    max-width: 90%;
+    font-size: 1.1rem;
+  }
+
+  .arrow-text {
+    position: absolute;
+    transform: translateX(-50%) rotate(-10deg);
+    width: auto;
+    font-size: 1.2rem;
+  }
+
+  .arrow {
+    top: -30px;
+    left: calc(50% + 80px);
+    width: 100px;
+    height: auto;
+  }
+
+  .ghosts {
+    width: 748px;
+    height: 306px;
+  }
+
+  .arrow {
+    position: absolute;
+    top: -60px;
+    left: 280px;
+  }
+  .arrow-text {
+    position: absolute;
+    left: 230px;
+    top: -70px;
+    width: 120px;
+  }
+  button {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bg {
+    width: 100px;
+    height: 487px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bg {
+    width: 162%;
+    object-fit: cover;
+  }
+
+  .img-content img {
+    display : none;
+  }
+
+  .img-content {
+    content : url('../../../assets/moblieGhost.svg');
+    transform : scale(1.3);
+    position: absolute;
+    left : 180px;
+    margin : auto;
+  }
+
+  .img-content p {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+  }
+
+  .container {
+    width : 100%;
+    align-items: center;
+  }
+}

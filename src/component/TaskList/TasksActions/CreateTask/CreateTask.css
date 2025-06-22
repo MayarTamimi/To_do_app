@@ -1,0 +1,103 @@
+.modal {
+  background-color: var(--primary-background-color);
+  border-radius: 12px;
+  padding: 24px;
+  width: 448px;
+  height: 492px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.modal-head h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.modal-head img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.labels label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.labels input,
+.labels textarea,
+.labels select {
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.labels textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.actions button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.create-model-container .modal {
+  background: var(--primary-background-color);
+  border-radius: 12px;
+  padding: 24px;
+  width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: scale(0.9) translateY(-20px);
+  animation: fadeInScale 0.25s ease-out forwards;
+}
+
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .action {
+    width: 450px;
+  }
+
+  .action button {
+    width: 450px;
+  }
+
+  .action .title {
+    width: 430px;
+  }
+}

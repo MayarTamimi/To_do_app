@@ -1,0 +1,153 @@
+{
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Log in to unlock tailored content and stay connected with your community.",
+    "email": "Email address",
+    "password": "Password",
+    "button": "Sign in",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "signup": {
+    "title": "Create an Account",
+    "subtitle": "Let’s get started. Fill in the details below to create your account.",
+    "upload": "Upload Avatar",
+    "name": "Name",
+    "email": "Email address",
+    "password": "Password (min 8 characters)",
+    "button": "Sign up",
+    "haveAccount": "Already have an account?",
+    "logIn": "Log in",
+    "remove": "Remove Avatar"
+  },
+  "escape": {
+    "redTitle": "Escape the Curse of Procrastination!",
+    "mainTitle": "Beware the Tasks That Lurk in Your Mind!",
+    "description": "No more forgetting! Use powerful spells (a.k.a. natural language) to summon your to-dos into existence. Organize them instantly before they vanish into the abyss of unfinished work. Control your tasks before they control you!"
+  },
+  "ghosts": {
+    "title": "Hunt the Ghosts",
+    "subTitle": "It's okay to be scared!",
+    "content": "Hunt the Ghosts...If You Dare!",
+    "button": "Hunt the Ghosts"
+  },
+  "middle": {
+    "title": "The Haunted",
+    "title2": " List Tasks That Won't Stay Buried!",
+    "description": "Beware! Your unfinished tasks are rising from the grave... Keep them in check before they haunt you forever! Add, complete, and conquer your to‑dos before they turn into nightmares!",
+    "button": "Get Started"
+  },
+  "middleBar": {
+    "card1": "“Unfinished tasks will fade and turn into eerie ghost reminders if left too long—don't let them haunt you”",
+    "card2": "“If you ignore your tasks for too long, the screen gets darker, and creepy sounds start playing to remind you to get things done!”",
+    "card3": "“Complete a task, and watch it vanish with a spooky animation—like banishing a ghost back to the underworld!”"
+  },
+  "panda": {
+    "redTitle": "Capture Tasks Before They Haunt You Forever!",
+    "mainTitle": "Beware the Tasks That Lurk in Your Mind!",
+    "description": "Your unfinished tasks are creeping in the shadows, waiting to strike! We've spent years crafting the ultimate ghost-hunting tool—capture and banish tasks instantly before they haunt you forever. Just type naturally, and let the exorcism begin!"
+  },
+  "header": {
+    "home": "Home",
+    "huntGhost": "Hunt Ghost",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "tasks": {
+    "title": "Title",
+    "description": "Description",
+    "empty": "No tasks , let's create one !",
+    "Status": "Status",
+    "actions": "Actions",
+    "menu": "Menu",
+    "starOn": "Star task",
+    "starOff": "Unstar task",
+    "editPrompt": {
+      "title": "Enter new title:",
+      "description": "Enter new description:"
+    },
+    "status": {
+      "0": "To Do",
+      "1": "In Progress",
+      "2": "Done"
+    },
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "tasksActions": {
+    "create": "Create New Task",
+    "search": "Search...",
+    "status": "Status",
+    "doIt": "Do It",
+    "done": "Done",
+    "inProgress": "In Progress",
+    "allStatuses": "All Status"
+  },
+  "status": {
+    "title": "Status",
+    "todo": "To Do",
+    "inProgress": "In Progress",
+    "done": "Done"
+  },
+  "password": {
+    "title": "Password",
+    "old": "Old Password",
+    "new": "New Password",
+    "oldPlaceholder": "Enter your old password",
+    "newPlaceholder": "Enter your new password",
+    "save": "Save"
+  },
+  "settings": {
+    "title": "Settings",
+    "personalInfo": "Personal Information",
+    "fullName": "Full Name",
+    "namePlaceholder": "Enter your Full Name",
+    "save": "Save",
+    "nameSaved": "Name updated successfully.",
+    "nameError": "Failed to update name."
+  },
+  "statusModel": {
+    "title": "Status List",
+    "editTitle": "Edit Status",
+    "createTitle": "Create Status",
+    "titleLabel": "Status Title",
+    "titlePlaceholder": "Enter status title",
+    "selectColor": "Select Color",
+    "saveButton": "Save",
+    "createButton": "Create"
+  },
+  "createTask": {
+    "title": "Create Task",
+    "taskTitle": "Task title",
+    "description": "Description",
+    "descriptionPlaceholder": "Type something ...",
+    "status": "Status",
+    "createButton": "Create",
+    "createStatus": "Create Status",
+    "customRequiredMessage": "Please enter a task title"
+  },
+  "emptyTasks": {
+    "title": "No Tasks… Just an Eerie Silence!",
+    "line1": "It’s so empty here… almost too empty. Did your tasks vanish into the void?",
+    "line2": "Summon a new task before the ghosts start whispering...",
+    "button": "Create New Task"
+  },
+  "tabs": {
+    "table": "Table",
+    "grid": "Grid"
+  },
+  "deleteStatus": {
+    "modalTitle": "Delete Status",
+    "warningLine1": "Beware! You’re About to Erase the",
+    "warningLine2": "“To Do Status”!",
+    "warningDetail": "All tasks in this status will vanish into the void forever... Once they’re gone, there’s no bringing them back!",
+    "confirmButton": "Delete the status"
+  },
+  "taskSettings": {
+    "changeTo": "Change to",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "direction": "ltr"
+}

@@ -1,0 +1,46 @@
+.lang {
+    cursor: pointer;
+  }
+  
+  .moon-toggle {
+    cursor: pointer;
+  }
+  
+  .profile-photo {
+    cursor: pointer;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 10px;
+    right: 0;
+    z-index: 1000;
+    min-width: 150px;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown-icon {
+    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  

@@ -1,0 +1,23 @@
+.footer-container {
+  width: 400;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.footer-container img {
+    width: 440px;
+    height: 57px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-footer-logo {
+    width: 200;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-footer-logo {
+    display: none;
+  }
+}

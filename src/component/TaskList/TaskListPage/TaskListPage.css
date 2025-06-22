@@ -1,0 +1,187 @@
+.create button {
+    background-color: #cf0b2b;
+    color: white;
+    border-radius: 8px;
+    width: 142px;
+    height: 36px;
+  }
+  
+  .tabs-container {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .search {
+    width: 968px;
+    height: 46px;
+    display: flex;
+    gap: 7px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.4);
+  }
+  
+  .search input {
+    border: none;
+    width: 1200px;
+    height: 20px;
+    /* padding : 10px; */
+  }
+  
+  .search input {
+    border: none;
+    width: 1200px;
+    height: 20px;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .search input:focus {
+    outline: none;
+  }
+  
+  .search img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .search input::placeholder {
+    color: rgb(94, 92, 92);
+    font-size: 1.1rem;
+  }
+
+  .create button {
+    background-color: #cf0b2b;
+    color: white;
+    border-radius: 8px;
+    width: 142px;
+    height: 36px;
+  }
+  
+  .tabs-container {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .search {
+    display: flex;
+    gap: 7px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.4);
+  }
+  
+  .search input {
+    border: none;
+    width: 1200px;
+    height: 20px;
+    /* padding : 10px; */
+  }
+  
+  .search input {
+    border: none;
+    width: 1200px;
+    height: 20px;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .search input:focus {
+    outline: none;
+  }
+  
+  .search img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .search input::placeholder {
+    color: rgb(94, 92, 92);
+    font-size: 1.1rem;
+  }
+
+  
+.table-tab img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .table-tab {
+    background-color: #cf0b2b;
+    color: white;
+    border-radius: 7px;
+    width: 83px;
+    height: 32px;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .table-tab p {
+    margin: auto;
+  }
+  
+  .table-tab img {
+    margin: auto;
+  }
+  
+  .grid-tab {
+    display: flex;
+    /* gap : 10px; */
+    width: 83px;
+    height: 32px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .grid-tab img {
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    position: absolute;
+    top: 8px;
+  }
+  
+  .grid-tab p {
+    margin: auto;
+    color: #666;
+    font-size: 18px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search {
+      width: 100%;
+    }
+  
+    .search input {
+      width: 100%;
+    }
+
+    .search input::placeholder {
+      position: relative;
+      top : 10px;
+    }
+
+    .empty-content button {
+        width : 160px;
+        height: 50px;
+    }
+    
+  }

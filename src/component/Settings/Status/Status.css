@@ -1,0 +1,54 @@
+.status-profile h2 {
+    padding: 30px;
+  }
+  
+  .status-colors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 40px;
+    justify-content: center;
+  }
+  
+  .status-cont {
+    display: flex;
+  }
+  
+  .contents {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .status-text {
+    background-color: #f7f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    width: 446px;
+    height: 72px;
+  }
+  
+  .color {
+    width: 32px;
+    height: 32px;
+    border-radius: 25%;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .status-profile {
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .status-colors {
+      grid-template-columns: 1fr;
+    }
+  
+    .status-text {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+.task-settings-menu {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(128, 128, 128, 0.4);
+  background-color: white;
+  width: 210px;
+  padding: 20px;
+}
+
+.active {
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.delete-modal {
+  position: relative;
+  width: 448px;
+  height: 342px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.delete-modal img {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-20px);
+  animation: fadeIn 0.25s ease-out forwards;
+  transition: all 0.3s ease-in-out;
+}
+
+.fade-in {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.delete-content p {
+  padding: 10px;
+}
+
+.delete-content {
+  text-align: center;
+}
+
+.delete-modal button {
+  font-size: 1rem;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.task-actions img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+
+.task-actions:hover {
+  background-color: #d8e8d8;
+  border: radius 8px;
+}
